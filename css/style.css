@@ -1,0 +1,76 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Estilo del héroe */
+.hero {
+    background-image: url('images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+/* Estilo de la galería de trabajo */
+.latest-work h2 {
+    font-size: 24px;
+}
+
+.work-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-gallery img {
+    max-width: 30%;
+    border: 1px solid #333;
+    margin: 10px;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
